@@ -68,6 +68,7 @@ class VentanaPrincipal(QMainWindow):
 
         #creacion de widget 
         componentePrincipal  = QWidget()
+        
         componentePrincipal.setLayout(layout_vertical)
         componentePrincipal.setStyleSheet("background-color: rgb(102, 178, 255);")
         self.setCentralWidget(componentePrincipal)
